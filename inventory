@@ -1,10 +1,4 @@
-virtualmachines:
-  hosts:
-    vm01:
-      ansible_host: 192.168.0.121
-    vm02:
-      ansible_host: 192.168.0.102
-    vm03:
-      ansible_host: 192.168.0.103
-    vm04:
-      ansible_host: 192.168.0.178
+192.168.0.121 apache_package=apache2 php_package=libapache2-mod-php
+192.168.0.102 apache_package=apache2 php_package=libapache2-mod-php
+192.168.0.103 apache_package=apache2 php_package=libapache2-mod-php
+192.168.0.178 apache_package=httpd php_package=php
