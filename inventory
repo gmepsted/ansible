@@ -1,0 +1,9 @@
+
+[servers]
+test1 ansible_host=10.0.1.55
+test2 ansible_host=10.0.1.56
+test3 ansible_host=10.0.1.57
+test4 ansible_host=10.0.1.58
+
+[all:vars]
+ansible_python_interpreter=/usr/bin/python3
